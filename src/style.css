@@ -1,1 +1,6 @@
-/* Acá va tu código */
+body {
+    font-family: "Mystery Quest"; cursive;
+    src: url(https://fonts.google.com/specimen/Coiny);
+    background-image: url(src/imagenes/fondo1.jpg)  no-repeat center center fixed;
+
+}/* Acá va tu código */
