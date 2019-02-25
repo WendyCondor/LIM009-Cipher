@@ -5,11 +5,28 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body bgcolor="#FADBD8">
-    <div id="root">
-      <center><h1>CodyJuegos</h1></center>
-      <br>
+  <body bgcolor="#AFEEEE">
 
+    <div class="container-fluid h-200">
+          <section class="cover">
+            <center><h1><span>CodyJuegos</span></h1></center>
+            <h2>Aprendamos a cifrar y descifrar palabras</h2>
+            <br>
+            <br>
+            <input type="text" id="text" class=" input text" placeholder="Palabra a cifrar" title="Escribe la palabra que deseas cifrar"
+            <div>
+              <input type="number" id="number" class="input" placeholder="Numero de desplazamientos" title="Debes ingresar la cantidad a desplazar"
+            </div>
+            <br>
+            <br>
+             <div>
+               <button class="button-color inside" onclick="getData(true)">Cifrar</button>
+               <button class="button-color inside" onclick="getData(false)">Descifrar</button>
+             </div>
+             <br>
+             <br>
+            <input type="text" id="text" class=" input text" placeholder="Palabra a descifrar" title="Escribe la palabra que deseas descifrar"
+          </section>
     </div>
 
     <script src="cipher.js"></script>

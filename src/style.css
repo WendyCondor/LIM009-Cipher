@@ -1,6 +1,73 @@
 body {
-    font-family: "Mystery Quest"; cursive;
-    src: url(https://fonts.google.com/specimen/Coiny);
-    background-image: url(src/imagenes/fondo1.jpg)  no-repeat center center fixed;
+ margin: 0;
+ background-size: cover;
+ color: #2F4F4F;
+ font-family: 'Raleway', sans-serif;
+ font-weight: 400;
+ overflow-x: hidden;
+ font-size: 1.2rem;
+}
 
-}/* Acá va tu código */
+.cover{
+   margin-top: 100px;
+   text-align: center;
+ }
+
+h1{
+  font-size: 5rem;
+  color: #444;
+  margin: 0 0 1rem;
+  text-shadow: 2px 2px 2px rgb(14, 13, 13);
+}
+
+
+h1 span {
+    font-family: 'Pacifico', cursive;
+    font-weight: 600;
+    color: #FF6347;
+  }
+
+h2 {
+  font-size: 2rem;
+  font-family: 'Pacifico' , cursive;
+}
+
+input[type="text"]{
+    width: 25%;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Pacifico', cursive;
+  }
+
+input[type="number"]{
+     width: 25%;
+     height: 30px;
+     border-radius: 5px;
+     font-size: 15px;
+     font-family: 'Pacifico', cursive;
+   }
+
+input:hover{
+      outline:1px;
+       background: #C0C0C0;
+   }
+
+button{
+      width: 160px;
+      margin: 10px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: #fafcf7;
+      font-size: 1.5rem;
+      color: #63717f;
+      border: none;
+      padding: 5px;
+      font-family: 'Pacifico', cursive;
+    }
+
+button:hover{
+      outline: 3px;
+      background-color: #C0C0C0;
+      color: "#AFEEEE";
+    }
