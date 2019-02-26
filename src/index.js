@@ -9,11 +9,13 @@ function codificar() {
     }
 
 let text = */
-var input= document.getElementById("Palabra a cifrar")
-var button= document.getElementById("cifrar")
+const input= document.getElementById("text");
+const button= document.getElementById("cifrar");
+const text= document.getElementById("text1");
 
-button.addEventListener("Click",function (){
-var text = input.value;
-const resultado = document.getElementById(id de donde va a botar el resultado);
-resultado.innerHTML = text;
-}
+button.addEventListener("click", () => {
+  const mensajeCifrado = input.value;
+  console.log(mensajeCifrado);
+  text.value = mensajeCifrado;
+
+});
