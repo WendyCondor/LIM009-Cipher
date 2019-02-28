@@ -1,5 +1,10 @@
 window.cipher = {
-  encode: () => {
+  encode: (cifrar,text) => {
+    let palabraCifrada = '';
+
+    for(let i =0; i< 26; i++){
+      
+    }
     /*const input = [];
     const text = "";
     let i;
@@ -15,7 +20,8 @@ window.cipher = {
      for(let i = entrada.length -1; i >=0; i--){
      palabra = palabra + entrada[i];
      console.log(palabra);
-     },
+     }
+   },
   decode: () => {
     /* Acá va tu código */
   }
