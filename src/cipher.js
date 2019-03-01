@@ -1,31 +1,28 @@
 window.cipher = {
-  encode: (cifrar,text) => {
+  encode: (text,number) => {
     let palabraCifrada = '';
-
-    for(let i =0; i< 26; i++){
-      
+    for( i =0; i <text.length; i++) {
+      if(text.chartCodeAt(i)== 32){// buscar que significa los 3 iguales, buscar else y
+        //sino funciona crear un rango en el if, si es >65 y <90.
+        palabraCifrada='';
+      }
+    const palabraAscii = text.charCodeAt(i);
+    const formulaPalabra = (palabraAscii - 65 + parseInt(number))%26+65;
+    const cifrado = String.fromCharCode(formulaPalabra);
+      palabraCifrada = palabraCifrada + cifrado;
     }
-    /*const input = [];
-    const text = "";
-    let i;
-    for (i = 0; i < palbras.length; i++) {
-      text += palabras[i] + "<br>";
+    return palabraCifrada
+  },
+  decode: (text,number) => {
+    let palabraDescifrada = '';
+    for ( i=0; i<text.length; i++) {
+    const palabraAscii2 = text.charCodeAt(i);
+    const formulaPalabra2 = (palabraAscii2 + 65 - parseInt(number))%26 + 65;
+    const descifrado = String.fromCharCode(formulaPalabra2);
+      palabraDescifrada = palabraDescifrada + descifrado;
     }
-    document.getElementById("Cifrar").innerHTML = text;
-
-     /* Acá va tu código */
-     const entrada= [];
-     let palabra= "";
-
-     for(let i = entrada.length -1; i >=0; i--){
-     palabra = palabra + entrada[i];
-     console.log(palabra);
-     }
-   },
-  decode: () => {
-    /* Acá va tu código */
+    return palabraDescifrada
   }
-};
+}
 
-/*const cifrado = document.getElementById("text");
-const */
+/* Acá va tu código */
