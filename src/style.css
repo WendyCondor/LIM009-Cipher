@@ -12,7 +12,18 @@ body {
    margin-top: 10px;
    text-align: center;
  }
+.caja {
+  float: left;
+  width: 15%;
+}
+.caja img {
+  width: 100%;
+}
+.central {
+  float: left;
+  width: 70%;
 
+}
 h1{
   font-size: 5rem;
   color: #444;
