@@ -2,14 +2,14 @@ body {
  margin: 0;
  background-size: cover;
  color: #2F4F4F;
- font-family: 'Raleway', sans-serif;
+ font-family: '', cursiva;
  font-weight: 400;
  overflow-x: hidden;
  font-size: 1.2rem;
 }
 
 .cover{
-   margin-top: 100px;
+   margin-top: 10px;
    text-align: center;
  }
 
@@ -22,15 +22,21 @@ h1{
 
 
 h1 span {
-    font-family: 'Pacifico', cursive;
+    font-family: '@import url(https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Pacifico');' cursive;
     font-weight: 600;
-    color: #FF6347;
+    color: #880E4F;
   }
 
 h2 {
   font-size: 2rem;
-  font-family: 'Pacifico' , cursive;
+  font-family: '' , cursive;
 }
+
+p {
+  font-size: 1rem;
+  font-family: '@import url('https://fonts.googleapis.com/css?family=Lobster|Luckiest+Guy|Pacifico');' cursive;
+}
+
 
 input[type="text"]{
     width: 45%;
@@ -58,9 +64,9 @@ button{
       margin: 10px;
       height: 40px;
       border-radius: 5px;
-      background-color: #fafcf7;
+      background-color:#ff6090 ;
       font-size: 1.5rem;
-      color: #63717f;
+      color: #880E4F;
       border: none;
       padding: 5px;
       font-family: 'Pacifico', cursive;
