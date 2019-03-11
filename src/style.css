@@ -12,6 +12,7 @@ body {
 
 .box {
   background-color: #F4D03F;
+  text-align: center;
 }
 .cover{
    margin-top: 80px;
@@ -38,7 +39,7 @@ h2 {
 .parrafo {
   font-size: 1.5rem;
   font-family:'Pacifico'
-
+  
 }
 
 
