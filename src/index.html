@@ -2,20 +2,24 @@
 <html>
   <head>
     <meta charset="utf-8">
-
-
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
-  <body bgcolor= #F7D3CB>
+  <body bgcolor= #FDEBD0>
+      <div class="container">
           <section class="cover">
-            <div class="caja"><img src="imagenes/fondo3.jpg"></div>
-            <div class="central">
-            <center><h1><span>CodyJuegos</span></h1></center>
-
+            <header class="box"><center><h1>CodyJuegos</h1></center></header>
             <h2>Aprendamos a cifrar y descifrar palabras</h2>
-            <p>Quieres aprender a cifrar y descifrar palabras u oraciones? Es muy fácil con este juego podras hacerlo</p>
+            <img src="imagenes/codigo.jpg" width="320" height="220">
+            <center><p class="parrafo">Quieres aprender a cifrar y descifrar palabras u oraciones?
+              <br> Es muy fácil, con este juego podras hacerlo
+              <br> solo tienes que seguir las siguientes instrucciones:
+              <br> 1. Escribe la palabra u oración que deseas cifrar
+              <br> 2. Escribe el número a desplazar que desees
+              <br> 3. Dale click al botón "Cifrar" o "Descifrar"
+              <br> 4. Aparecera tu palabra u oracion cifrada o descifrada
+              <br> 5. Dale Click al botón "Limpiar" para volver a jugar</p></center>
             <br>
             <br>
             <form id="form">
@@ -23,7 +27,7 @@
             <br>
             <br>
             <div>
-              <input type="number" id="number" class="input" min="1" max="900" placeholder="N de desplazamientos" title="Debes ingresar la cantidad a desplazar">
+              <input type="number" id="number" class="input" min="1" max="100" placeholder="N de desplazamientos" title="Debes ingresar la cantidad a desplazar">
             </div>
             <br>
             <br>
@@ -38,10 +42,16 @@
             <br>
             <br>
             <button id= "refrescar" class="button-color inside">Limpiar</button>
-          </div>
-          <div class="caja"><img src="imagenes/fondo3.jpg"></div>
-
           </section>
+
+        </div>
+          <br>
+          <br>
+          <footer>
+            <div class="footer">
+                  <p>Desarrollado por WenCondor</p>
+            </div>
+          </footer>
 
 
     <script src="cipher.js"></script>
